@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.menu{
+    height: 180px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.menu-elem{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.menu-elem__img{
+    height: 20px;
+    width: 20px;
+}
+.main{
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.main__information-client__main{
+    width: 240px;
+}
+.main__information{
+    height: 390px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+}
+.main__information-client{
+    background-color: #222;
+    height: 90px;
+    margin: 30px;
+    width: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 0 3px aqua;
+    font-weight: bold;
+}
+.main__information-gateway{
+    background-color: #222;
+    width: 180px;
+    height: 330px;
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 3px aqua;
+    font-weight: bold;
+}
+.main__information-gateway::before {
+    content: "gateway";
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 350px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.main__information-server{
+    background-color: #222;
+    width: 180px;
+    height: 330px;
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 3px aqua;
+    text-align: center;
+    font-weight: bold;
+}
+.main__information-server::before {
+    content: "server";
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 350px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.main__service{
+    margin-top: 50px;
+    height: 550px;
+}
+.main__sevice-block::before {
+    content: 'service';
+    text-transform: uppercase;
+    position: absolute;
+    right: 650px;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+.main__sevice-block{
+    background-color: #222;
+    height: 90px;
+    width: 330px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 3px aqua;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 30px;
+}
